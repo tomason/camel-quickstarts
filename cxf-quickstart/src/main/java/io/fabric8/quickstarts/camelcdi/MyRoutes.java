@@ -29,7 +29,7 @@ import org.apache.camel.cdi.Uri;
 public class MyRoutes extends RouteBuilder {
 
     @Inject
-    @Uri("cxfrs://http://localhost:8080/rest?resourceClasses=io.fabric8.quickstarts.camelcdi.Service&bindingStyle=SimpleConsumer")
+    @Uri("cxfrs://http://0.0.0.0:8080/rest?resourceClasses=io.fabric8.quickstarts.camelcdi.Service&bindingStyle=SimpleConsumer")
     private Endpoint cxfEndpoint;
 
     @Override
