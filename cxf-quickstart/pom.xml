@@ -71,6 +71,11 @@
       <artifactId>camel-cxf</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-transports-http-jetty</artifactId>
+    </dependency>
+
     <!-- cdi api -->
     <dependency>
       <groupId>javax.enterprise</groupId>
